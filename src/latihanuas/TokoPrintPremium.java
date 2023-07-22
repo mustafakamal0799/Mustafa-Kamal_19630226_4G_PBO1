@@ -21,11 +21,11 @@ public class TokoPrintPremium extends TokoPrint {
         }
     }
 
-    public double getBonus() {
+    public double getDiskon() {
         return diskon;
     }
 
-    public void setBonus(double diskon) {
+    public void setDiskon(double diskon) {
         this.diskon = diskon;
     }
 }
