@@ -3,7 +3,7 @@ package latihanuas;
 public class TokoPrint {
     private double printwarna;
     private double printhitamputih;
-    private final int jumlahTransaksi;
+    private int jumlahTransaksi;
     
     public TokoPrint(double printwarna, double printhitamputih, int jumlahTransaksi){
         this.printwarna = printwarna;
@@ -19,6 +19,10 @@ public class TokoPrint {
         this.printhitamputih = printhitamputih;
     }
 
+    public void setJumlahTransaksi(int jumlahTransaksi) {
+        this.jumlahTransaksi = jumlahTransaksi;
+    }
+           
     public int getJumlahTransaksi() {
         return jumlahTransaksi;
     }

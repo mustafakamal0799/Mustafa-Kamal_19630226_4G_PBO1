@@ -14,7 +14,7 @@ public class TokoPrintPremium extends TokoPrint {
     public double totalHarga() {
         double hargaAwal = super.totalHarga();
         if(hargaAwal > 50000){
-        return hargaAwal * diskon;
+        return hargaAwal - diskon;
         }
         else {
             return super.totalHarga();
